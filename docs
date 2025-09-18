@@ -1,0 +1,5 @@
+docs/
+├── index.html           # homepage with navigation
+├── introduction.html    # project introduction
+├── team.html            # team bios
+└── proposal.html        # proposal overview
