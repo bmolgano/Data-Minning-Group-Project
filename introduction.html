@@ -8,7 +8,17 @@
   <h1>Project Introduction</h1>
   <!-- Research Topic & Significance -->
   <h2>Research Topic & Significance</h2>
-  <p>[Air travel plays a vital role in connecting people, businesses, and economies, yet one of its most persistent challenges is flight delays. Delays not only inconvenience passengers but also generate substantial financial costs for airlines and the broader economy. Our research topic will explore flight delays patterns with particular attention to changes since the COVID pandemic. We will analyze the reasons for flight delays and attempt to predict future flight delays using data-driven models. In general air transportation delays are costly to both consumers and airline companies. According to the estimation by the Total Delay Impact Study, transportation delays cost almost $32.9 billion in 2017. Since the COVID pandemic there has been a general increase in flight delays with a variety of underlying reasons.]</p>
+  <p>Air travel plays a vital role in connecting people, businesses, and economies, yet one of its most persistent challenges is flight delays. Delays not only 
+    inconvenience passengers but also generate substantial financial costs for airlines and the broader economy. Our research topic will explore flight delays patterns with 
+    particular attention to changes since the COVID pandemic. We will analyze the reasons for flight delays and attempt to predict future flight delays using data-driven 
+    models. In general air transportation delays are costly to both consumers and airline companies. According to the estimation by the Total Delay Impact Study, 
+    transportation delays cost almost $32.9 billion in 2017. Since the COVID pandemic there has been a general increase in flight delays with a variety of underlying reasons. 
+    While weather contributes to flight delays, factors such as staffing and flight maintenance also play a role, and these can be key to informing more effective industry 
+    responses. Understanding these evolving dynamics is essential for airlines seeking to improve efficiency, reduce costs, and enhance travel experiences. These non-weather
+    related delays can have a larger impact on the bottom line for airline companies, as these factors are more controllable. In addition to immediate financial loss due to 
+    cancellation and rescheduling, they can also lead to long-term loss as consumers may choose to fly with a different company in the future. Company specific delay analysis 
+    can further illuminate this issue, by informing consumers if certain airlines are more reliable. From an industry perspective, we can also link the presence of certain 
+    underlying factors such as staff shortages within a company to a possible increase in the delays.</p>
 
 
   <figure>
@@ -18,28 +28,62 @@
 
   <!-- Stakeholders -->
   <h2>Stakeholders (Who is Affected?)</h2>
-  <p>[Paragraph 1 – At least 10 sentences describing industries, groups, and individuals impacted.]</p>
-  <p>[Paragraph 2 – At least 10 sentences discussing real-world implications and examples.]</p>
-  <p>[Paragraph 3 – At least 10 sentences about long-term effects on stakeholders.]</p>
-  <p>[Paragraph 4 – At least 10 sentences addressing equity and underserved groups.]</p>
-  <p>[Paragraph 5 – At least 10 sentences linking stakeholder needs to project goals.]</p>
+  <p>Flight delays have wide impacts that extend beyond passengers waiting at the gate. For travelers, delays mean lost time, missed connections, financial costs, and 
+    reduced confidence in the reliability of air travel. Airlines themselves face both direct costs, such as additional fuel, crew overtime, mandatory passenger compensation,
+    and indirect costs, including long-term reputational damage if customers choose competing carriers. Airports and air traffic controllers are also stakeholders, as delays
+    contribute to congestion on runways and in terminals, straining staff and physical infrastructure. Regulatory bodies such as the Federal Aviation Administration and 
+    Department of Transportation play a role in monitoring delay trends and enforcing consumer protections, making them invested in accurate prediction and prevention. 
+    By focusing on both weather and controllable operational factors, this project provides insights that can benefit all of these stakeholders through better passenger 
+    travel experiences and reduced operational costs for airlines and airports through stronger evidence to guide industry standards. </p>
+
 
   <!-- Existing Solutions & Gaps -->
   <h2>Existing Solutions & Gaps</h2>
-  <p>[Paragraph 1 – At least 10 sentences summarizing current approaches or solutions.]</p>
-  <p>[Paragraph 2 – At least 10 sentences on where they succeed and why they matter.]</p>
-  <p>[Paragraph 3 – At least 10 sentences highlighting limitations and challenges.]</p>
-  <p>[Paragraph 4 – At least 10 sentences on research/practice gaps your project will address.]</p>
-  <p>[Paragraph 5 – At least 10 sentences bridging to your blueprint, showing how your work improves on gaps.]</p>
+  <p>In addition to finding the underlying causes for flight delays, predicting flight delays and analyzing delay patterns can help prepare better responses for both the 
+    consumer and company. Accurate and advanced predictions can prevent consumers facing extreme delays when traveling by rescheduling flights in advance. Most current 
+    predictive models are only able to focus on weather related variables. As mentioned earlier other delays can have a larger impact on the company’s bottom line, so 
+    having a predictive model for them would be beneficial.  Airline companies also have their own methods of predicting flight delays. Comparing the quality and accuracy 
+    of these predictions can provide important information to both the consumer and the airline industry.  In addition to predicting flight delays it is important to also 
+    look at patterns behind the increased frequency or length of delays. Analyzing data from certain airports and flight times can inform delays and flight traffic patterns. 
+    This can help schedule flights more efficiently, so certain delays are avoided all together.</p>
+  <p>As mentioned earlier, most existing work for flight delay prediction focuses on using machine learning models to make predictions based on weather patterns. Thus, 
+    we plan to address other predictive factors such as flight traffic and time of travel. Additionally, if we are able to access individual flight data, we could predict 
+    delays such as late arriving planes which can cause future delays. Plenty of data analysis techniques exist for flight delays which look at a variety of factors. However,
+    most of this data just analyzes factors for the flight industry as a whole. There isn’t much contrastive analysis done between airports or airline companies. Analysis 
+    between different airports can provide information on future flight traffic that should be redirected. Comparative analysis between different airline companies may 
+    provide insight to the consumer on how to possibly avoid future delays. The main limitations for most of this analysis will be access to and the ability to manage 
+    large amounts of data. Detailed individual flight data to predict delays will be difficult to obtain, and for the comparative analysis we will have to access and 
+    clean data from multiple airports each with a large amount of flights per day.</p>
   <p><em>Example citation placeholder: (Smith & Johnson, 2023; FAA Report, 2022)</em></p>
 
   <!-- Blueprint for Your Project -->
   <h2>Blueprint for Our Project</h2>
-  <p>[Paragraph 1 – At least 10 sentences outlining goals, scope, and guiding questions.]</p>
-  <p>[Paragraph 2 – At least 10 sentences describing high-level analysis plan.]</p>
-  <p>[Paragraph 3 – At least 10 sentences introducing possible datasets considered.]</p>
-  <p>[Paragraph 4 – At least 10 sentences discussing risks, assumptions, and limitations.]</p>
-  <p>[Paragraph 5 – At least 10 sentences about expected outcomes and deliverables.]</p>
+  <p>Our project will take a data science–driven approach to analyzing flight delays, focusing on patterns that have emerged since the COVID-19 pandemic. At the highest 
+    level, we will begin by collecting and preparing large-scale flight data, focusing on both weather-related and non-weather-related variables such as staffing shortages, 
+    maintenance issues, and air traffic congestion. Once the data is cleaned and organized, we will conduct exploratory data analysis methods to identify trends across 
+    airlines, airports, and timeframes. This analysis will aim to confirm whether there has been a post-COVID increase in delays and to map the factors most responsible. 
+    After the exploratory phase, the project will move into predictive modeling. We plan to experiment with machine learning approaches that can answer questions around 
+    flight delays and the length of delay. By training both discriminative and generative models, we hope to capture not only the likelihood of delay but also the magnitude 
+    and duration. This approach goes beyond most existing models that narrowly focus on weather data and will instead integrate multiple features like airport traffic, 
+    flight schedules, and staffing indicators.</p>
+  <p>The visualizations leveraged for this project will focus on intuitive visuals that show both historical patterns and predictive insights. For example, predictions 
+    could be displayed similarly to hurricane cone maps, where near-term forecasts are more precise while longer-term estimates carry a wider margin of uncertainty. 
+    This style of presentation would not only communicate the technical aspects of prediction but also provide an easily understandable view for stakeholders, from airline 
+    managers to passengers. For potential datasets, we are exploring publicly available flight delay records from the Bureau of Transportation Statistics, weather data from 
+    the National Oceanic and Atmospheric Administration, and possibly operational datasets on airline staffing or airport traffic. If feasible, we will combine these 
+    datasets to create a richer analytical framework that captures the multifaceted causes of flight delays. Careful preparation will be applied to the flight data during 
+    the cleaning, merging, and management phases of analysis on the datasets. </p>
+  <p>The final deliverables of this project will include a set of well-documented insights into flight delay trends, machine learning models that demonstrate predictive 
+    potential, and a website that presents these findings to a broad audience. The website will serve as a presentation of our methods and a practical communication tool 
+    for stakeholders. By integrating descriptive, comparative, and predictive analysis, our project blueprint will focus on causes and factors impacting flight delays as 
+    well as actionable recommendations for future improvements. Overall, our research can illustrate reasons, response quality, and future advice for both the consumer and 
+    the industry on how to better deal with flight delays.</p>
+
+  <!-- Datasets -->
+  <h2>Datasets</h2>
+  <p>Bureau of Transportation Statistics (BTS) On-Time Performance Data</p>
+  <p>Kaggle – Flight Delays</p>
+  <p>COVID-19 Air Travel Dataset</p>
 
   <!-- References -->
   <h2>References</h2>
