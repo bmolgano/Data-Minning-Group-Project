@@ -28,7 +28,11 @@
       through post-COVID years (2022–2024), with a focus on specific airports and airlines. The analysis compares airport
       and airline specific performance, seasonal delay trends, and contributing factors such as weather and air-traffic 
       volume.</p>
+    <h2>Data Acquisition</h2>
+    <p>Data Collection: In order to collect our data for flight delay information, we used information from the Bureau of Transportation Statistics (BTS). The data is directly from the government and monitors flight data for all years back to 1987. Much of the data is aggregated by year or month which is good for data exploration and summary, but may not be useful for predicting future flight delays. Thus we used the Detailed Statistics Departure which can generate specific flight data for a given set of days. The tool can take up to 31 days of input for a given year, departure airport and airline. It then outputs all the flights giving their takeoff, departure time, and any possible delays. The data also give the reason for any delay and the time lost due to the delay.  As a result this dataset gave almost all answers to our research questions. It lets us analyze delay reasons, and we can make predictions using information such as takeoff time, departure airport, destination airport, airline company, and other factors covered in our research questions. For now we did not have to aggregate any other data sources. However we did have to aggregate the data from the tool using multiple queries. Since the tool can only give results for certain days for a certain airline and airport we varied these factors to generate our initial data. We first chose 20 random days throughout the year covering different months and different weekdays to capture a variety of flight data based on different traffic patterns. .</p>
 
+
+    
     <h3>Key Insights</h3>
     <ul>
       <li><strong>Combined Dataset:</strong> 1,428 records across 21 variables covering Denver (DEN), LaGuardia (LGA), and Kansas City (MCI).</li>
