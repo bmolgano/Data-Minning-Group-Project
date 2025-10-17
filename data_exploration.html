@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Data Exploration - Data Mining Project</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; }
+    nav a { margin-right: 1rem; text-decoration: none; color: #0366d6; }
+    h2 { color: #333; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Data Mining Project Website</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="introduction.html">Introduction</a>
+      <a href="team.html">Team</a>
+      <a href="proposal.html">Proposal Overview</a>
+      <a href="data_exploration.html"><strong>Data Exploration</strong></a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Data Exploration</h2>
+    <p>This page highlights our exploratory data analysis and data understanding process. 
+    We combined multiple airline datasets from 2019, 2022, and 2024 to examine flight performance trends 
+    across major U.S. airports, focusing on delay frequency, duration, and causes.</p>
+
+    <h3>Key Insights</h3>
+    <ul>
+      <li><strong>Combined Dataset:</strong> 1,428 records across 21 variables covering Denver (DEN), LaGuardia (LGA), and Kansas City (MCI).</li>
+      <li><strong>Normality Diagnostics:</strong> QQ plots revealed strong right skew in delay-related variables, suggesting log transformation.</li>
+      <li><strong>Correlation Analysis:</strong> Highly correlated variables (r > 0.9) were identified between flight counts and delay durations.</li>
+      <li><strong>Normalization:</strong> Features were standardized to mean = 0, std = 1 to prepare for modeling and clustering.</li>
+    </ul>
+
+    <p>These insights guided our data preprocessing, normalization, and variable selection steps before moving to the modeling phase.</p>
+  </main>
+</body>
+</html>
