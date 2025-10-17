@@ -179,14 +179,26 @@
       project will largely reduce the granularity of the dataset, further improving the privacy inherent in the original 
       data.</p>
 
-    
-    <h3>Key Insights</h3>
-    <ul>
-      <li><strong>Combined Dataset:</strong> 1,428 records across 21 variables covering Denver (DEN), LaGuardia (LGA), and Kansas City (MCI).</li>
-      <li><strong>Normality Diagnostics:</strong> QQ plots revealed strong right skew in delay-related variables, suggesting log transformation.</li>
-      <li><strong>Correlation Analysis:</strong> Highly correlated variables (r > 0.9) were identified between flight counts and delay durations.</li>
-      <li><strong>Normalization:</strong> Features were standardized to mean = 0, std = 1 to prepare for modeling and clustering.</li>
-    </ul>
+      <p>Advanced Data Understanding: This stage focuses on exploring and refining the combined dataset to ensure it is 
+        ready for modeling. It includes performing visual diagnostics such as QQ plots to assess normality, examining 
+        correlations and relationships between variables, consolidating datasets where appropriate, and applying 
+        normalization or transformation techniques to prepare the data for further analysis.</p>
+      <p>The QQ plots show that most numerical variables deviate noticeably from the red reference line, confirming that 
+        they are not normally distributed. The discrete variables, such as year and month, are naturally non-normal, while 
+        continuous operational metrics like arr_flights, arr_del15, carrier_ct, and weather_ct display strong right skew. 
+        This indicates that a few months had exceptionally high values compared to the majority. To address this skewness 
+        and improve statistical assumptions for modeling, transformations such as logarithmic or Box-Cox may be applied to 
+        stabilize variance and approximate normality.</p>
+      <p>The correlation heatmap reveals strong relationships among several variables, indicating patterns and possible 
+        redundancy. Features such as arr_delay, arr_del15, and arr_flights are highly correlated (r ≈ 0.95), showing that
+        greater flight volumes correspond to more delays. Late_aircraft_ct and late_aircraft_delay are almost perfectly 
+        correlated (r ≈ 0.96), while carrier_ct and carrier_delay are also closely linked (r ≈ 0.92). Weather-related 
+        variables show moderate correlations (r ≈ 0.65–0.75), whereas security-related factors are largely independent. 
+        These strong interdependencies suggest potential multicollinearity, which should be mitigated by consolidating 
+        redundant variables or applying dimensionality reduction methods like PCA.</p>
+ 
+    <h3>Visualization & Summaries</h3>
+
 
     <p>These insights guided our data preprocessing, normalization, and variable selection steps before moving to the modeling phase.</p>
   </main>
