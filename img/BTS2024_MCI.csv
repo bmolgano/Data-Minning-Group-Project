@@ -1,0 +1,198 @@
+year,month,carrier,carrier_name,airport,airport_name,arr_flights,arr_del15,carrier_ct,weather_ct,nas_ct,security_ct,late_aircraft_ct,arr_cancelled,arr_diverted,arr_delay,carrier_delay,weather_delay,nas_delay,security_delay,late_aircraft_delay
+2024,12,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",77.00,19.00,6.41,1.17,3.77,0.00,7.65,0.00,0.00,834.00,224.00,79.00,134.00,0.00,397.00
+2024,12,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",116.00,21.00,5.07,0.09,9.44,0.00,6.40,0.00,0.00,1334.00,361.00,9.00,703.00,0.00,261.00
+2024,12,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",85.00,29.00,6.42,0.98,9.95,0.00,11.66,0.00,1.00,2286.00,577.00,95.00,347.00,0.00,1267.00
+2024,12,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",154.00,38.00,17.55,1.81,5.53,0.00,13.11,0.00,1.00,2339.00,813.00,285.00,463.00,0.00,778.00
+2024,12,PT,Piedmont Airlines,MCI,"Kansas City, MO: Kansas City International",11.00,3.00,1.33,0.00,0.22,0.00,1.44,1.00,0.00,356.00,126.00,0.00,17.00,0.00,213.00
+2024,12,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",31.00,2.00,0.50,0.00,1.50,0.00,0.00,0.00,0.00,38.00,11.00,0.00,27.00,0.00,0.00
+2024,12,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",239.00,42.00,19.71,0.86,4.48,0.00,16.95,1.00,0.00,1977.00,780.00,25.00,169.00,0.00,1003.00
+2024,12,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",1948.00,369.00,123.98,3.99,34.74,1.67,204.62,4.00,1.00,20428.00,5537.00,289.00,1108.00,45.00,13449.00
+2024,12,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",154.00,19.00,7.95,0.90,4.72,0.00,5.44,2.00,1.00,1645.00,577.00,232.00,163.00,0.00,673.00
+2024,12,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",11.00,3.00,1.79,0.00,0.15,0.00,1.06,0.00,0.00,966.00,749.00,0.00,17.00,0.00,200.00
+2024,12,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",424.00,95.00,31.28,3.11,9.99,0.00,50.63,6.00,0.00,6287.00,1405.00,593.00,379.00,0.00,3910.00
+2024,12,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",54.00,15.00,5.36,0.68,3.21,0.00,5.75,0.00,0.00,754.00,336.00,77.00,109.00,0.00,232.00
+2024,12,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",603.00,114.00,57.91,2.80,20.56,0.00,32.73,0.00,1.00,5922.00,3174.00,97.00,668.00,0.00,1983.00
+2024,12,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",17.00,2.00,1.02,0.00,0.43,0.00,0.54,0.00,0.00,47.00,24.00,0.00,10.00,0.00,13.00
+2024,12,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",20.00,3.00,1.00,0.18,0.61,0.00,1.21,0.00,0.00,180.00,22.00,24.00,45.00,0.00,89.00
+2024,12,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",15.00,3.00,1.98,0.00,0.61,0.00,0.41,0.00,0.00,290.00,234.00,0.00,17.00,0.00,39.00
+2024,12,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",209.00,39.00,13.79,0.00,15.67,0.00,9.54,2.00,2.00,1792.00,826.00,0.00,447.00,0.00,519.00
+2024,12,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",18.00,1.00,0.00,0.10,0.07,0.00,0.83,0.00,0.00,167.00,0.00,17.00,11.00,0.00,139.00
+2024,11,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",25.00,2.00,0.00,0.00,2.00,0.00,0.00,0.00,0.00,61.00,0.00,0.00,61.00,0.00,0.00
+2024,11,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",477.00,70.00,26.42,2.44,8.42,0.00,32.72,5.00,0.00,4889.00,1789.00,197.00,395.00,0.00,2508.00
+2024,11,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",50.00,4.00,2.00,0.00,1.00,0.00,1.00,0.00,0.00,102.00,48.00,0.00,18.00,0.00,36.00
+2024,11,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",656.00,85.00,51.01,3.00,14.09,0.00,16.91,0.00,1.00,5029.00,2931.00,440.00,442.00,0.00,1216.00
+2024,11,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",29.00,7.00,0.83,0.00,2.34,0.00,3.83,1.00,0.00,316.00,49.00,0.00,84.00,0.00,183.00
+2024,11,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",18.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+2024,11,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",75.00,7.00,1.60,0.11,4.32,0.00,0.97,0.00,0.00,305.00,28.00,20.00,163.00,0.00,94.00
+2024,11,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",161.00,15.00,6.65,0.00,3.73,0.00,4.62,1.00,0.00,668.00,195.00,0.00,328.00,0.00,145.00
+2024,11,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",80.00,11.00,3.19,1.00,1.88,0.00,4.93,0.00,0.00,538.00,107.00,19.00,85.00,0.00,327.00
+2024,11,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",160.00,23.00,14.57,2.00,2.37,0.00,4.06,1.00,0.00,1765.00,976.00,351.00,268.00,0.00,170.00
+2024,11,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",26.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,113.00,113.00,0.00,0.00,0.00,0.00
+2024,11,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",258.00,40.00,7.78,2.63,15.98,0.00,13.61,0.00,0.00,2364.00,335.00,143.00,918.00,0.00,968.00
+2024,11,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",1865.00,229.00,75.17,0.09,39.80,1.76,112.17,4.00,3.00,10569.00,3536.00,10.00,1576.00,84.00,5363.00
+2024,11,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",174.00,23.00,10.81,0.98,7.16,0.00,4.05,0.00,1.00,1208.00,402.00,160.00,281.00,0.00,365.00
+2024,11,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",193.00,25.00,5.40,0.00,15.22,0.00,4.38,1.00,0.00,945.00,237.00,0.00,344.00,0.00,364.00
+2024,11,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",25.00,3.00,1.70,0.80,0.30,0.00,0.20,0.00,0.00,603.00,313.00,195.00,46.00,0.00,49.00
+2024,10,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",58.00,9.00,5.99,1.00,1.06,0.00,0.95,0.00,1.00,924.00,134.00,629.00,29.00,0.00,132.00
+2024,10,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",31.00,1.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,15.00,0.00,0.00,15.00,0.00,0.00
+2024,10,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",379.00,49.00,15.20,1.00,11.55,0.00,21.25,0.00,0.00,2420.00,784.00,62.00,360.00,0.00,1214.00
+2024,10,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",2081.00,240.00,88.05,1.71,33.14,1.00,116.10,22.00,3.00,11511.00,4371.00,84.00,1429.00,22.00,5605.00
+2024,10,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",211.00,17.00,6.89,0.00,4.88,0.00,5.22,0.00,0.00,1208.00,248.00,0.00,342.00,0.00,618.00
+2024,10,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",119.00,12.00,2.68,0.00,6.42,0.00,2.90,0.00,0.00,424.00,82.00,0.00,171.00,0.00,171.00
+2024,10,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",6.00,1.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,33.00,0.00,0.00,33.00,0.00,0.00
+2024,10,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",65.00,8.00,0.91,0.00,7.09,0.00,0.00,0.00,0.00,148.00,20.00,0.00,128.00,0.00,0.00
+2024,10,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",553.00,89.00,36.19,1.36,12.56,0.00,38.89,1.00,3.00,6691.00,2476.00,104.00,554.00,0.00,3557.00
+2024,10,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",56.00,8.00,1.04,0.00,4.20,0.00,2.76,0.00,0.00,265.00,31.00,0.00,124.00,0.00,110.00
+2024,10,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",742.00,75.00,44.74,2.00,12.65,0.00,15.60,0.00,1.00,4625.00,2979.00,141.00,472.00,0.00,1033.00
+2024,10,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",31.00,9.00,1.07,0.00,0.74,0.00,7.19,0.00,0.00,632.00,55.00,0.00,52.00,0.00,525.00
+2024,10,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",19.00,3.00,1.00,0.67,1.33,0.00,0.00,2.00,0.00,319.00,267.00,16.00,36.00,0.00,0.00
+2024,10,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",91.00,9.00,1.39,0.00,2.08,0.00,5.54,0.00,0.00,326.00,94.00,0.00,41.00,0.00,191.00
+2024,10,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",187.00,19.00,8.47,0.00,3.40,0.00,7.14,5.00,0.00,2016.00,1000.00,0.00,280.00,0.00,736.00
+2024,10,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",38.00,1.00,0.23,0.00,0.00,0.00,0.77,0.00,0.00,39.00,9.00,0.00,0.00,0.00,30.00
+2024,9,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",72.00,5.00,0.00,0.00,4.00,0.00,1.00,0.00,0.00,235.00,0.00,0.00,189.00,0.00,46.00
+2024,9,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",492.00,92.00,39.33,3.55,18.50,1.00,29.62,1.00,0.00,4454.00,2203.00,116.00,533.00,122.00,1480.00
+2024,9,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",77.00,17.00,3.01,0.00,8.72,0.38,4.89,0.00,0.00,485.00,71.00,0.00,207.00,10.00,197.00
+2024,9,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",700.00,92.00,55.49,2.13,18.50,0.00,15.88,0.00,0.00,5472.00,3861.00,230.00,672.00,0.00,709.00
+2024,9,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",30.00,4.00,2.57,0.00,0.00,0.00,1.43,0.00,0.00,299.00,181.00,0.00,0.00,0.00,118.00
+2024,9,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+2024,9,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",113.00,15.00,1.77,0.00,2.84,0.00,10.39,0.00,0.00,867.00,90.00,0.00,67.00,0.00,710.00
+2024,9,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",187.00,20.00,7.40,1.52,8.05,0.00,3.02,2.00,0.00,1451.00,776.00,98.00,412.00,0.00,165.00
+2024,9,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",43.00,8.00,5.47,0.00,0.53,0.00,2.00,0.00,0.00,398.00,238.00,0.00,10.00,0.00,150.00
+2024,9,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",26.00,3.00,2.73,0.00,0.27,0.00,0.00,0.00,0.00,115.00,101.00,0.00,14.00,0.00,0.00
+2024,9,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",335.00,54.00,15.35,1.00,10.86,0.00,26.80,2.00,0.00,3471.00,1196.00,37.00,349.00,0.00,1889.00
+2024,9,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",1948.00,254.00,88.30,0.75,40.50,1.44,123.02,1.00,2.00,11195.00,3609.00,15.00,1168.00,32.00,6371.00
+2024,9,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",161.00,16.00,9.27,1.00,2.00,0.00,3.73,0.00,2.00,644.00,376.00,42.00,42.00,0.00,184.00
+2024,9,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",144.00,14.00,3.66,0.00,4.50,0.00,5.84,0.00,0.00,608.00,126.00,0.00,178.00,0.00,304.00
+2024,9,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",32.00,2.00,0.13,0.00,1.31,0.00,0.56,0.00,0.00,34.00,2.00,0.00,23.00,0.00,9.00
+2024,8,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",140.00,31.00,9.48,0.60,16.18,0.00,4.74,14.00,0.00,2198.00,710.00,59.00,1003.00,0.00,426.00
+2024,8,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",496.00,160.00,56.96,4.88,21.10,1.27,75.79,9.00,0.00,14858.00,6337.00,703.00,919.00,36.00,6863.00
+2024,8,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",87.00,23.00,4.02,0.00,9.22,0.00,9.75,0.00,0.00,839.00,155.00,0.00,265.00,0.00,419.00
+2024,8,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",665.00,131.00,76.25,4.35,14.79,1.00,34.60,2.00,2.00,8944.00,5716.00,333.00,518.00,37.00,2340.00
+2024,8,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",31.00,5.00,2.22,0.00,0.73,0.00,2.05,0.00,0.00,253.00,84.00,0.00,48.00,0.00,121.00
+2024,8,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",14.00,2.00,0.00,0.00,0.00,0.00,2.00,1.00,0.00,37.00,0.00,0.00,0.00,0.00,37.00
+2024,8,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",3.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+2024,8,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",172.00,25.00,8.73,0.55,4.78,0.00,10.94,0.00,1.00,1023.00,311.00,49.00,179.00,0.00,484.00
+2024,8,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",217.00,58.00,15.83,4.17,18.83,0.00,19.17,8.00,1.00,4221.00,1675.00,193.00,1087.00,0.00,1266.00
+2024,8,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",25.00,2.00,1.93,0.00,0.07,0.00,0.00,0.00,0.00,99.00,94.00,0.00,5.00,0.00,0.00
+2024,8,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",29.00,4.00,3.00,0.00,1.00,0.00,0.00,0.00,0.00,248.00,233.00,0.00,15.00,0.00,0.00
+2024,8,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",350.00,110.00,32.26,3.00,20.22,0.00,54.53,8.00,0.00,8463.00,2505.00,200.00,1040.00,0.00,4718.00
+2024,8,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",2046.00,409.00,131.06,9.86,53.01,1.44,213.63,7.00,1.00,21125.00,6191.00,867.00,2047.00,103.00,11917.00
+2024,8,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",170.00,33.00,19.91,3.41,3.83,0.00,5.85,2.00,0.00,3266.00,1470.00,1134.00,231.00,0.00,431.00
+2024,8,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",131.00,28.00,6.26,0.43,9.73,0.00,11.58,7.00,0.00,2351.00,365.00,37.00,510.00,0.00,1439.00
+2024,8,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",51.00,15.00,5.82,1.49,3.20,0.00,4.49,1.00,0.00,1445.00,280.00,64.00,113.00,0.00,988.00
+2024,7,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",190.00,34.00,10.88,0.00,13.24,0.00,9.87,16.00,2.00,2701.00,943.00,0.00,785.00,0.00,973.00
+2024,7,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",546.00,269.00,76.34,9.08,26.69,0.00,156.88,8.00,5.00,24740.00,7223.00,1200.00,1246.00,0.00,15071.00
+2024,7,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",92.00,24.00,6.99,0.00,4.53,0.00,12.48,0.00,0.00,847.00,385.00,0.00,130.00,0.00,332.00
+2024,7,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",634.00,187.00,104.34,6.36,23.75,0.00,52.56,42.00,2.00,15885.00,9916.00,618.00,1043.00,0.00,4308.00
+2024,7,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",29.00,7.00,3.16,0.00,1.56,0.00,2.27,0.00,0.00,317.00,157.00,0.00,38.00,0.00,122.00
+2024,7,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",30.00,4.00,2.50,1.00,0.09,0.00,0.41,1.00,0.00,200.00,131.00,53.00,9.00,0.00,7.00
+2024,7,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",4.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+2024,7,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",118.00,25.00,4.21,1.17,6.97,0.00,12.65,2.00,0.00,1210.00,142.00,33.00,272.00,0.00,763.00
+2024,7,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",208.00,60.00,27.30,0.18,13.18,0.00,19.34,13.00,0.00,4096.00,1643.00,23.00,815.00,0.00,1615.00
+2024,7,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",72.00,17.00,6.05,1.00,6.97,0.00,2.98,4.00,0.00,992.00,355.00,18.00,443.00,0.00,176.00
+2024,7,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",31.00,2.00,1.30,0.00,0.70,0.00,0.00,0.00,0.00,60.00,37.00,0.00,23.00,0.00,0.00
+2024,7,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",329.00,108.00,36.97,2.04,21.00,0.00,47.98,11.00,2.00,8599.00,2943.00,362.00,1148.00,0.00,4146.00
+2024,7,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",2200.00,645.00,202.04,17.79,89.83,3.81,331.52,7.00,5.00,36342.00,10560.00,1687.00,4867.00,158.00,19070.00
+2024,7,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",149.00,41.00,17.28,0.93,8.53,0.00,14.26,7.00,2.00,3148.00,1155.00,138.00,317.00,0.00,1538.00
+2024,7,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",145.00,28.00,7.75,2.02,11.10,0.00,7.13,2.00,0.00,1591.00,520.00,109.00,436.00,0.00,526.00
+2024,6,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",140.00,27.00,13.25,0.60,4.64,0.00,8.51,2.00,0.00,3334.00,1600.00,90.00,174.00,0.00,1470.00
+2024,6,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",133.00,17.00,2.10,1.93,10.01,0.00,2.96,1.00,0.00,817.00,126.00,208.00,384.00,0.00,99.00
+2024,6,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",108.00,21.00,4.97,2.13,4.27,0.00,9.64,2.00,0.00,1145.00,217.00,152.00,208.00,0.00,568.00
+2024,6,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",149.00,34.00,9.54,2.30,12.07,0.08,10.01,2.00,1.00,2515.00,912.00,116.00,846.00,4.00,637.00
+2024,6,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",12.00,1.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,146.00,0.00,0.00,0.00,0.00,146.00
+2024,6,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",97.00,18.00,9.91,4.44,0.74,0.00,2.92,2.00,0.00,1696.00,826.00,611.00,46.00,0.00,213.00
+2024,6,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",30.00,5.00,2.87,0.00,1.13,0.00,1.00,0.00,0.00,153.00,91.00,0.00,47.00,0.00,15.00
+2024,6,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",342.00,101.00,31.94,2.04,20.95,0.00,46.07,4.00,1.00,7497.00,2050.00,217.00,792.00,0.00,4438.00
+2024,6,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",2137.00,567.00,192.07,10.59,68.97,1.93,293.43,2.00,5.00,29855.00,8908.00,959.00,2891.00,90.00,17007.00
+2024,6,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",133.00,22.00,8.74,0.00,3.21,0.00,10.05,5.00,0.00,1430.00,491.00,0.00,159.00,0.00,780.00
+2024,6,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",563.00,226.00,85.02,6.93,28.24,0.00,105.81,8.00,0.00,16094.00,5151.00,585.00,1452.00,0.00,8906.00
+2024,6,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",90.00,22.00,8.48,0.00,3.64,0.11,9.77,1.00,0.00,928.00,420.00,0.00,101.00,4.00,403.00
+2024,6,B6,JetBlue Airways,MCI,"Kansas City, MO: Kansas City International",12.00,1.00,0.53,0.00,0.33,0.00,0.14,0.00,0.00,36.00,19.00,0.00,12.00,0.00,5.00
+2024,6,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",608.00,115.00,62.38,2.38,16.89,0.00,33.36,0.00,2.00,6843.00,4454.00,89.00,505.00,0.00,1795.00
+2024,6,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",36.00,7.00,4.70,0.00,1.95,0.00,0.35,2.00,0.00,198.00,128.00,0.00,58.00,0.00,12.00
+2024,6,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",30.00,4.00,1.81,0.00,0.14,0.00,2.05,0.00,0.00,372.00,158.00,0.00,9.00,0.00,205.00
+2024,5,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",2.00,1.00,0.20,0.00,0.28,0.00,0.53,0.00,0.00,76.00,15.00,0.00,21.00,0.00,40.00
+2024,5,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",149.00,27.00,8.98,1.97,7.54,0.00,8.52,3.00,1.00,1698.00,416.00,134.00,307.00,0.00,841.00
+2024,5,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",135.00,32.00,10.09,0.00,17.97,0.00,3.94,1.00,0.00,1691.00,425.00,0.00,1031.00,0.00,235.00
+2024,5,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",60.00,13.00,4.32,0.00,6.25,0.00,2.43,0.00,0.00,693.00,311.00,0.00,232.00,0.00,150.00
+2024,5,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",112.00,21.00,9.98,2.41,5.45,0.00,3.16,2.00,1.00,1211.00,492.00,177.00,328.00,0.00,214.00
+2024,5,QX,Horizon Air,MCI,"Kansas City, MO: Kansas City International",16.00,4.00,2.84,0.00,1.16,0.00,0.00,0.00,0.00,198.00,164.00,0.00,34.00,0.00,0.00
+2024,5,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",336.00,107.00,24.77,5.41,28.09,0.00,48.72,2.00,3.00,8355.00,1855.00,452.00,1321.00,0.00,4727.00
+2024,5,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",2062.00,556.00,172.68,17.06,87.94,2.75,275.57,11.00,13.00,34357.00,9773.00,1654.00,3829.00,128.00,18973.00
+2024,5,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",109.00,30.00,10.69,1.12,10.23,0.00,7.97,3.00,0.00,2879.00,1333.00,149.00,549.00,0.00,848.00
+2024,5,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",177.00,36.00,12.66,1.00,13.97,0.00,8.37,2.00,1.00,1750.00,573.00,16.00,536.00,0.00,625.00
+2024,5,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",5.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+2024,5,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",128.00,15.00,3.16,0.72,6.87,0.00,4.24,4.00,1.00,940.00,233.00,212.00,339.00,0.00,156.00
+2024,5,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",474.00,206.00,61.36,9.77,29.73,0.38,104.76,23.00,1.00,20104.00,6384.00,1292.00,1663.00,39.00,10726.00
+2024,5,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",78.00,13.00,4.30,0.00,3.73,0.00,4.97,0.00,0.00,609.00,267.00,0.00,138.00,0.00,204.00
+2024,5,B6,JetBlue Airways,MCI,"Kansas City, MO: Kansas City International",31.00,13.00,7.48,0.00,2.52,0.00,3.01,0.00,0.00,740.00,383.00,0.00,211.00,0.00,146.00
+2024,5,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",553.00,102.00,39.83,3.59,25.63,0.00,32.95,0.00,1.00,6595.00,2928.00,973.00,836.00,0.00,1858.00
+2024,5,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",23.00,5.00,2.00,0.00,1.00,0.00,2.00,0.00,0.00,223.00,60.00,0.00,20.00,0.00,143.00
+2024,5,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",28.00,4.00,2.00,0.00,1.49,0.00,0.51,0.00,0.00,299.00,101.00,0.00,106.00,0.00,92.00
+2024,4,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",145.00,20.00,5.99,0.00,7.10,0.00,6.91,2.00,0.00,1805.00,586.00,0.00,633.00,0.00,586.00
+2024,4,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",49.00,11.00,5.15,2.00,3.15,0.00,0.70,0.00,1.00,763.00,378.00,104.00,120.00,0.00,161.00
+2024,4,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",2056.00,474.00,155.71,5.10,105.22,0.29,207.69,10.00,1.00,24612.00,7870.00,357.00,4335.00,6.00,12044.00
+2024,4,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",459.00,132.00,37.65,5.13,24.27,0.00,64.95,4.00,0.00,8985.00,2406.00,545.00,883.00,0.00,5151.00
+2024,4,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",29.00,8.00,1.39,0.00,1.94,0.00,4.67,0.00,0.00,401.00,50.00,0.00,45.00,0.00,306.00
+2024,4,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",25.00,3.00,0.00,0.00,1.00,0.00,2.00,0.00,0.00,261.00,0.00,0.00,30.00,0.00,231.00
+2024,4,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",279.00,74.00,29.18,2.77,20.98,0.00,21.08,1.00,0.00,3862.00,1517.00,144.00,682.00,0.00,1519.00
+2024,4,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",110.00,22.00,11.35,0.06,3.40,0.00,7.19,0.00,0.00,1664.00,829.00,2.00,128.00,0.00,705.00
+2024,4,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",148.00,19.00,3.49,1.05,8.78,0.00,5.68,1.00,1.00,1037.00,331.00,85.00,259.00,0.00,362.00
+2024,4,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",33.00,3.00,0.50,0.03,0.61,0.00,1.86,0.00,0.00,250.00,10.00,5.00,19.00,0.00,216.00
+2024,4,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",60.00,17.00,5.56,0.00,5.19,0.00,6.25,0.00,0.00,623.00,250.00,0.00,125.00,0.00,248.00
+2024,4,B6,JetBlue Airways,MCI,"Kansas City, MO: Kansas City International",30.00,10.00,2.51,0.00,5.74,0.00,1.75,0.00,0.00,340.00,81.00,0.00,181.00,0.00,78.00
+2024,4,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",105.00,12.00,4.10,2.40,2.19,0.00,3.31,1.00,0.00,557.00,195.00,125.00,85.00,0.00,152.00
+2024,4,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",110.00,23.00,7.80,1.00,13.17,0.00,1.03,0.00,0.00,1255.00,520.00,33.00,681.00,0.00,21.00
+2024,4,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",520.00,58.00,26.08,1.73,13.38,0.00,16.80,0.00,1.00,3087.00,1377.00,165.00,380.00,0.00,1165.00
+2024,4,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",93.00,18.00,10.23,2.00,2.77,0.00,3.00,0.00,0.00,1689.00,576.00,826.00,148.00,0.00,139.00
+2024,3,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",133.00,10.00,5.83,0.00,0.68,0.00,3.49,0.00,1.00,701.00,539.00,0.00,39.00,0.00,123.00
+2024,3,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",4.00,1.00,0.08,0.00,0.00,0.00,0.92,0.00,0.00,26.00,2.00,0.00,0.00,0.00,24.00
+2024,3,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",35.00,3.00,0.00,0.47,0.63,0.00,1.90,0.00,0.00,182.00,0.00,38.00,25.00,0.00,119.00
+2024,3,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",135.00,39.00,10.79,1.02,19.79,1.00,6.40,1.00,0.00,1892.00,701.00,28.00,861.00,19.00,283.00
+2024,3,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",328.00,65.00,26.05,0.79,14.74,0.00,23.42,1.00,1.00,3866.00,1807.00,23.00,550.00,0.00,1486.00
+2024,3,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",62.00,8.00,4.45,0.62,2.04,0.00,0.89,0.00,0.00,416.00,200.00,34.00,58.00,0.00,124.00
+2024,3,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",456.00,138.00,42.18,3.75,24.78,0.08,67.21,5.00,2.00,8244.00,2194.00,364.00,997.00,19.00,4670.00
+2024,3,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",56.00,9.00,1.77,0.00,0.64,0.00,6.58,1.00,0.00,628.00,148.00,0.00,17.00,0.00,463.00
+2024,3,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",18.00,4.00,1.08,0.00,2.41,0.00,0.51,0.00,0.00,143.00,49.00,0.00,65.00,0.00,29.00
+2024,3,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",74.00,14.00,6.42,0.00,6.58,0.00,1.00,0.00,0.00,567.00,320.00,0.00,180.00,0.00,67.00
+2024,3,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",2171.00,467.00,120.18,3.70,92.99,1.34,248.79,15.00,7.00,26407.00,6363.00,660.00,4078.00,33.00,15273.00
+2024,3,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",56.00,7.00,4.41,0.00,1.67,0.00,0.93,0.00,0.00,314.00,231.00,0.00,45.00,0.00,38.00
+2024,3,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",29.00,5.00,2.89,0.00,0.61,0.00,1.50,0.00,1.00,250.00,175.00,0.00,30.00,0.00,45.00
+2024,3,B6,JetBlue Airways,MCI,"Kansas City, MO: Kansas City International",31.00,23.00,10.67,0.00,3.43,0.00,8.90,0.00,0.00,1417.00,655.00,0.00,157.00,0.00,605.00
+2024,3,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",515.00,65.00,32.71,1.35,17.12,0.00,13.82,1.00,2.00,3219.00,1907.00,87.00,566.00,0.00,659.00
+2024,3,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",60.00,12.00,5.67,0.77,2.44,0.00,3.12,0.00,0.00,767.00,361.00,17.00,113.00,0.00,276.00
+2024,3,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",128.00,16.00,5.99,0.00,6.01,0.00,4.00,0.00,1.00,514.00,215.00,0.00,166.00,0.00,133.00
+2024,2,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",106.00,12.00,1.50,2.60,3.17,0.00,4.72,1.00,0.00,1156.00,87.00,313.00,128.00,0.00,628.00
+2024,2,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",13.00,4.00,0.77,0.00,3.23,0.00,0.00,0.00,0.00,192.00,49.00,0.00,143.00,0.00,0.00
+2024,2,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",2.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+2024,2,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",74.00,9.00,2.43,0.06,4.50,0.00,2.01,0.00,0.00,431.00,65.00,3.00,222.00,0.00,141.00
+2024,2,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",109.00,20.00,8.61,0.00,7.58,0.63,3.18,1.00,0.00,1141.00,483.00,0.00,395.00,26.00,237.00
+2024,2,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",64.00,8.00,2.59,0.64,0.36,0.00,4.41,0.00,0.00,779.00,323.00,50.00,28.00,0.00,378.00
+2024,2,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",1696.00,244.00,96.19,1.00,51.30,0.22,95.29,1.00,0.00,10495.00,3928.00,59.00,1640.00,10.00,4858.00
+2024,2,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",106.00,8.00,3.16,0.00,1.06,0.00,3.78,0.00,0.00,1271.00,303.00,0.00,31.00,0.00,937.00
+2024,2,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",75.00,5.00,3.41,0.00,1.59,0.00,0.00,2.00,0.00,128.00,89.00,0.00,39.00,0.00,0.00
+2024,2,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",33.00,5.00,2.76,0.11,0.59,0.00,1.53,0.00,0.00,191.00,85.00,3.00,36.00,0.00,67.00
+2024,2,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",445.00,82.00,28.81,0.40,12.73,0.52,39.54,0.00,0.00,4400.00,1278.00,34.00,393.00,11.00,2684.00
+2024,2,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",38.00,9.00,1.00,0.00,6.00,0.00,2.00,0.00,0.00,308.00,59.00,0.00,159.00,0.00,90.00
+2024,2,B6,JetBlue Airways,MCI,"Kansas City, MO: Kansas City International",29.00,7.00,3.58,0.00,1.48,0.00,1.94,1.00,0.00,452.00,260.00,0.00,55.00,0.00,137.00
+2024,2,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",431.00,41.00,20.58,0.94,13.43,0.00,6.05,0.00,0.00,1838.00,1002.00,62.00,403.00,0.00,371.00
+2024,2,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",44.00,3.00,1.00,0.00,1.00,0.00,1.00,0.00,0.00,283.00,30.00,0.00,59.00,0.00,194.00
+2024,2,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",101.00,16.00,6.12,1.00,3.98,0.00,4.90,3.00,0.00,1016.00,497.00,58.00,229.00,0.00,232.00
+2024,2,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",265.00,40.00,9.71,1.58,14.11,0.00,14.60,1.00,0.00,2566.00,413.00,232.00,743.00,0.00,1178.00
+2024,1,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",93.00,20.00,4.08,0.68,7.69,0.00,7.55,4.00,0.00,1316.00,196.00,92.00,517.00,0.00,511.00
+2024,1,ZW,Air Wisconsin Airlines Corp,MCI,"Kansas City, MO: Kansas City International",14.00,7.00,0.90,1.04,2.70,0.00,2.36,1.00,1.00,513.00,140.00,27.00,85.00,0.00,261.00
+2024,1,AA,American Airlines Network,MCI,"Kansas City, MO: Kansas City International",424.00,137.00,41.36,5.47,27.60,0.63,61.94,6.00,1.00,11148.00,3740.00,726.00,1222.00,52.00,5408.00
+2024,1,NK,Spirit Airlines,MCI,"Kansas City, MO: Kansas City International",100.00,30.00,8.19,1.44,16.18,0.41,3.78,1.00,0.00,2588.00,577.00,139.00,1638.00,37.00,197.00
+2024,1,OH,PSA Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",80.00,21.00,8.15,1.36,4.30,0.00,7.19,9.00,2.00,2314.00,968.00,183.00,245.00,0.00,918.00
+2024,1,YV,Mesa Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",105.00,24.00,11.87,1.11,1.24,0.00,9.77,3.00,0.00,2899.00,1600.00,101.00,126.00,0.00,1072.00
+2024,1,YX,Republic Airline,MCI,"Kansas City, MO: Kansas City International",123.00,26.00,7.52,4.85,5.27,0.00,8.36,3.00,1.00,1521.00,346.00,412.00,263.00,0.00,500.00
+2024,1,AS,Alaska Airlines Network,MCI,"Kansas City, MO: Kansas City International",37.00,9.00,2.55,0.00,1.20,0.00,5.25,6.00,0.00,599.00,81.00,0.00,39.00,0.00,479.00
+2024,1,B6,JetBlue Airways,MCI,"Kansas City, MO: Kansas City International",31.00,11.00,5.75,0.00,1.03,0.00,4.22,0.00,0.00,795.00,523.00,0.00,49.00,0.00,223.00
+2024,1,DL,Delta Air Lines Network,MCI,"Kansas City, MO: Kansas City International",454.00,90.00,45.71,5.29,19.56,0.00,19.44,5.00,0.00,5074.00,2848.00,373.00,648.00,0.00,1205.00
+2024,1,F9,Frontier Airlines,MCI,"Kansas City, MO: Kansas City International",32.00,9.00,6.74,0.00,2.26,0.00,0.00,0.00,0.00,409.00,344.00,0.00,65.00,0.00,0.00
+2024,1,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",133.00,35.00,14.98,8.65,7.38,0.00,4.00,2.00,1.00,2414.00,1420.00,484.00,225.00,0.00,285.00
+2024,1,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",9.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,341.00,341.00,0.00,0.00,0.00,0.00
+2024,1,G7,GoJet Airlines LLC d/b/a United Express,MCI,"Kansas City, MO: Kansas City International",4.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+2024,1,MQ,Envoy Air,MCI,"Kansas City, MO: Kansas City International",109.00,38.00,6.49,4.36,15.35,0.00,11.80,5.00,2.00,2464.00,549.00,420.00,724.00,0.00,771.00
+2024,1,UA,United Air Lines Network,MCI,"Kansas City, MO: Kansas City International",267.00,62.00,22.04,1.48,10.18,0.00,28.29,17.00,0.00,4141.00,1538.00,221.00,499.00,0.00,1883.00
+2024,1,WN,Southwest Airlines,MCI,"Kansas City, MO: Kansas City International",1889.00,424.00,158.03,4.54,75.74,1.44,184.24,115.00,1.00,20805.00,6841.00,589.00,3547.00,77.00,9751.00

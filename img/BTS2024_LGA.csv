@@ -1,0 +1,12 @@
+year,month,carrier,carrier_name,airport,airport_name,arr_flights,arr_del15,carrier_ct,weather_ct,nas_ct,security_ct,late_aircraft_ct,arr_cancelled,arr_diverted,arr_delay,carrier_delay,weather_delay,nas_delay,security_delay,late_aircraft_delay
+2024,6,WN,Southwest Airlines,LGA,"New York, NY: LaGuardia",943.00,266.00,87.73,6.50,86.25,0.96,84.56,5.00,10.00,21501.00,6797.00,478.00,8502.00,75.00,5649.00
+2024,6,DL,Delta Air Lines Network,LGA,"New York, NY: LaGuardia",2175.00,453.00,132.49,27.38,163.90,1.00,128.23,25.00,31.00,43141.00,11444.00,3385.00,17362.00,33.00,10917.00
+2024,6,NK,Spirit Airlines,LGA,"New York, NY: LaGuardia",686.00,199.00,57.12,5.74,89.62,1.25,45.27,29.00,3.00,15752.00,3181.00,305.00,8122.00,82.00,4062.00
+2024,6,9E,Endeavor Air Inc.,LGA,"New York, NY: LaGuardia",2899.00,537.00,121.17,20.16,193.48,0.00,202.19,147.00,11.00,52344.00,15639.00,2391.00,18583.00,0.00,15731.00
+2024,6,B6,JetBlue Airways,LGA,"New York, NY: LaGuardia",773.00,215.00,77.98,5.96,77.72,0.02,53.31,28.00,7.00,19098.00,6043.00,743.00,6796.00,3.00,5513.00
+2024,6,UA,United Air Lines Network,LGA,"New York, NY: LaGuardia",718.00,210.00,39.75,9.40,91.69,0.00,69.16,13.00,7.00,16886.00,2248.00,1169.00,7193.00,0.00,6276.00
+2024,6,F9,Frontier Airlines,LGA,"New York, NY: LaGuardia",240.00,107.00,23.33,1.93,46.35,0.00,35.39,6.00,2.00,7641.00,1438.00,120.00,3367.00,0.00,2716.00
+2024,6,YV,Mesa Airlines Inc.,LGA,"New York, NY: LaGuardia",19.00,4.00,1.00,1.00,2.00,0.00,0.00,0.00,1.00,298.00,40.00,72.00,186.00,0.00,0.00
+2024,6,YX,Republic Airline,LGA,"New York, NY: LaGuardia",3459.00,580.00,139.26,39.08,264.73,0.25,136.68,127.00,7.00,57830.00,14236.00,11290.00,19380.00,4.00,12920.00
+2024,6,OO,SkyWest Airlines Inc.,LGA,"New York, NY: LaGuardia",382.00,77.00,47.31,7.62,19.15,0.00,2.91,15.00,5.00,8882.00,5321.00,804.00,2472.00,0.00,285.00
+2024,6,AA,American Airlines Network,LGA,"New York, NY: LaGuardia",1285.00,437.00,137.12,20.98,101.68,0.65,176.58,59.00,12.00,35292.00,8009.00,2532.00,7554.00,11.00,17186.00
