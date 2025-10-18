@@ -82,6 +82,22 @@
        objectives to measure post-COVID delay trends, identify major contributing factors such as staffing, weather,
        or traffic volume, and evaluate the reliability and accuracy of current delay-prediction systems. </p>
 
+         <p>Before cleaning, the raw dataset contained only a few key flight metrics like departure delay, scheduled 
+           elapsed time, and actual elapsed time. The structure was minimal, and several records had incomplete or zero 
+           values. At this stage, the data primarily reflected timing differences without context for the underlying causes
+           of delays or the performance of different flights. After cleaning and transformation, the dataset was enriched
+           with additional computed and categorical features, including Primary Delay Reason, Primary Delay Percentage, 
+           Number of Delay Reasons, In-Flight Delay, and Total Delay. These new fields standardized delay categories and 
+           quantified their contribution to total delay times, enabling more robust descriptive and comparative analyses 
+           across flights and airlines.</p>
+         <figure>
+    <img src="img/Pre cleaned data.jpeg" 
+         alt="Visualization: Pre Cleaned" width="800">
+                    
+           <figure>
+    <img src="img/Post cleaned data.jpeg" 
+         alt="Visualization: Post Cleaned" width="800">
+
    <h2>Data Cleaning and Preprocessing</h2>
     <p>Handling Issues and Noise in the Data: Since the data was from the government and generated through a custom tool 
       there wasn’t much missing or incorrect data that we could identify.  However there was a slight issue with how total 
@@ -207,7 +223,6 @@
      <figure>
     <img src="img/correlation heatmap.jpeg" 
          alt="Visualization: Correlation Heatmap" width="800">
-     
 
     <h3>Visualization & Summaries</h3>
   <!-- Visualization 1 -->
