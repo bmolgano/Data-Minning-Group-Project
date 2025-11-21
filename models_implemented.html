@@ -16,6 +16,35 @@
   </nav>
 </header>
   <h1>Models Implemented</h1>
+      <!-- Research Question #1: Has there been an increase in flight delays since COVID pandemic? Explore reasons for staff shortages, increase in travel or weather? -->
+  <h2>Research Question #1:Has there been an increase in flight delays since COVID pandemic? Explore reasons for staff shortages, increase in travel or weather?</h2>
+  <p>Model Choice: A Linear Regression model was selected to evaluate whether flight delay durations have significantly changed since the onset of the COVID-19 pandemic. The model quantifies both the temporal trend in average monthly delays and the shift in mean delay after March 2020, allowing clear comparison of pre- and post-COVID performance. This method is appropriate for the dataset because it captures the numeric relationship between time (measured as months) and average delay (minutes), providing interpretable coefficients that reveal direction and magnitude of change over time.</p>
+  <p>Model Assumption: Linear Regression assumes that the predictors (MonthIndex and PostCOVID) have a linear relationship with the response variable (average delay). It also relies on independence of errors, constant variance of delays across time, and normally distributed residuals. Because the data was aggregated to monthly averages rather than individual flights, noise and outlier effects were reduced, making these assumptions reasonably satisfied for the model. </p>
+  <p>Data Preparation: To prepare the dataset for linear regression trend analysis, the merged flight dataset was first loaded and cleaned to ensure accurate temporal alignment. The date column was converted to a standardized datetime format, and rows with invalid or missing dates were removed. Because the research question focuses on long-term delay trends rather than individual flights, delay values were aggregated at the monthly level by computing the mean Departure Delay (Minutes) for each Year-Month period. A new numeric MonthIndex variable was created to capture the progression of time, and a binary PostCOVID indicator was added to distinguish flights occurring before and after March 2020. These engineered features produced a compact modeling dataset, allowing the linear regression model to evaluate both month-to-month delay trends and the magnitude of the shift in delays attributed to the COVID pandemic.
+</p>
+  <p>Hyperparameter Tuning:This model used Scikit-Learn's default LinearRegression implementation, which minimizes least-squares error without regularization, so no hyperparameter tuning was required. With only two predictors (MonthIndex and PostCOVID), the goal was to interpret delay trends rather than optimize predictive performance. The MonthIndex coefficient measures the month-to-month change in average delays, while the PostCOVID coefficient captures the shift in delay levels after March 2020.</p>
+  <p>Challenges & Solutions: The main challenges in modeling flight delay trends were limited pre-COVID observations, high variability in daily delay records, and seasonal fluctuations. Because most data was post-2023, a PostCOVID dummy variable was introduced to capture the structural shift caused by the pandemic. Daily records contained noise and many zero or negative delays, so the data was aggregated to monthly averages to produce a clearer signal. Although seasonality affects delays, it was not modeled in this initial version but could be incorporated in future work using seasonal dummy variables or rolling averages.</p>
+  <p>Performance & Evaluation: The linear regression results indicate a moderate R² score, meaning that time and COVID status explain part of the variation in delay durations. The MonthIndex coefficient is negative, suggesting that average delays have gradually decreased month-to-month in the observed period, while the PostCOVID coefficient is positive, confirming that delays increased significantly immediately after the onset of COVID-19. The trend line shows a sharp post-COVID spike followed by a gradual decline, implying operational recovery over time. Overall, average delay duration was noticeably higher after COVID compared to the pre-COVID baseline, but has slowly normalized in recent years.</p>
+
+  <figure>
+  <img src="img/Linear Regression — Trend Analysis.jpeg"
+       alt="Linear Regression — Trend Analysis" width="600" loading="lazy">
+  <figcaption>Linear Regression — Trend Analysis</figcaption>
+</figure>   
+
+    <figure>
+  <img src="img/Flight Delay Trend (Pre vs. Post COVID).png"
+       alt="Flight Delay Trend (Pre vs. Post COVID)" width="600" loading="lazy">
+  <figcaption>Flight Delay Trend (Pre vs. Post COVID)</figcaption>
+</figure>  
+
+    <figure>
+  <img src="img/Compare prepost averages.jpeg"
+       alt="Compare prepost averages" width="600" loading="lazy">
+  <figcaption>Compare prepost averages</figcaption>
+</figure>  
+
+  
   <!-- Research Question 3: K-Means Clustering: Do certain airline companies have more flight delays?  -->
   <h2>Research Question 3: K-Means Clustering: Do certain airline companies have more flight delays?</h2>
   <p>K-Means was selected because it is an unsupervised learning algorithm that effectively groups airlines with similar delay characteristics using numerical features such as average delay time and percentage of delayed flights. The dataset contained continuous numeric variables making K-Means suitable for finding natural clusters that distinguish on-time versus delay-prone carriers. Its efficiency and interpretability make it ideal for exploratory pattern discovery within airline performance data. K-Means assumes that clusters are approximately spherical in feature space and that data points are numerically scaled with similar variance. To meet these assumptions, all features were standardized using StandardScaler. It also assumes Euclidean distance is meaningful, which holds since the features (delay percentages and times) are continuous and comparable after scaling. The primary hyperparameter, number of clusters (K), was tuned using the Elbow method (Inertia vs. K) and the Silhouette Score. Both methods indicated an optimal K = 2, balancing compactness and separation (Silhouette = 0.500, Davies-Bouldin = 0.687).
