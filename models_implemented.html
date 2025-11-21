@@ -67,17 +67,63 @@
 
     <!-- Research Question #: enter question here -->
   <h2>Research Question #: enter question here</h2>
-  <p>Model Choice: enter body here</p>
-  <p>Model Assumption: enter body here</p>
-  <p>Challenges & Solutions: enter body here</p>
-  <p>Data Preparation: enter body here</p>
-  <p>Performance & Evaluation:  enter body here</p>
+  <p>Model Choice: K-Means clustering was selected to identify groups of airports that share similar delay characteristics like frequency, duration, and underlying causes. K-Means is an appropriate unsupervised algorithm to detect groupings without predefined labels because the dataset include continuous numeric features like average delay minutes and percentage of flights delayed. This method helps highlight airports with consistently higher delay rates compared to those operating more efficiently.</p>
+  
+  <p>Model Assumption: K-Means requires numerical features on a comparable scale, so all inputs were standardized before clustering. This ensures Euclidean distance reflects true similarity between airlines rather than differences in variable magnitude, allowing the model to form meaningful groups.</p>
  
+  <p>Data Preparation: To prepare the data for K-Means clustering, flight-level records were cleaned and aggregated into airport-level metrics. Delay fields were converted to numeric format and negative delays were clipped to zero. New features were engineered, including delay rates (≥15 and ≥60 minutes), mean delay duration, 95th-percentile delay, and average delay by cause. Airports with fewer than 100 flights were removed to reduce noise. Finally, all selected features were standardized so they contributed equally to Euclidean distance, and the resulting scaled feature matrix was used as input for clustering.</p>
 
   <figure>
-  <img src="enter img path here"
-       alt="enter image title here" width="600" loading="lazy">
-  <figcaption>enter image caption here</figcaption>
+  <img src="img/Aggregated airport-level delay data.jpeg"
+       alt="Aggregated airport-level delay data" width="600" loading="lazy">
+  <figcaption>Aggregated airport-level delay data</figcaption>
+</figure>   
+
+    <figure>
+  <img src="img/Feature snapshot BEFORE scaling 2.jpeg
+       alt="Feature snapshot BEFORE scaling" width="600" loading="lazy">
+  <figcaption>Feature snapshot BEFORE scaling</figcaption>
+</figure>   
+
+    <figure>
+  <img src="img/Feature snapshot AFTER scaling 2.jpeg"
+       alt="Feature snapshot AFTER scaling" width="600" loading="lazy">
+  <figcaption>Feature snapshot AFTER scaling</figcaption>
+</figure>   
+  
+  <p>Hyperparameters Tuning: Hyperparameter tuning was conducted using both the Elbow Method and the Silhouette Score to determine the optimal number of clusters. The Elbow curve showed diminishing gains in inertia beyond K = 2, and the Silhouette curve also peaked at K = 2 with a value of 0.263. Based on these results, the final model parameters were set to n_clusters = 2, n_init = 20, and random_state = 42. The evaluation metrics (Silhouette = 0.263 and Davies–Bouldin = 1.409) indicate moderate separation between clusters, which is reasonable for real-world transportation data where delay patterns naturally overlap.</p>
+     <figure>
+  <img src="img/elbow and Silhouette Score 2.png"
+       alt="elbow and Silhouette Score" width="600" loading="lazy">
+  <figcaption>elbow and Silhouette Score</figcaption>
+</figure>   
+  
+  <p>Challenges & Solutions: Several preprocessing challenges were addressed to ensure meaningful clustering. First, uneven flight volumes meant large hubs could dominate delay statistics, so a log-transformed flight count feature (log_flights) was added to balance scale differences. Second, airports with very few observations introduced noise, so locations with fewer than 100 flights were removed. Finally, extreme delay events and multiple overlapping delay causes inflated averages, so the 95th-percentile delay (p95_delay) and averaged cause-specific delay measures were used to stabilize the inputs and reduce the influence of outliers.</p>
+  
+  <p>Performance & Evaluation: The K-Means clustering model performed reliably in separating airports into two delay-behavior groups. With K = 2, the model achieved a Silhouette Score of 0.263 and a Davies-Bouldin score of 1.409, indicating moderate separation between clusters. Despite natural noise in transportation systems, the model was still able to differentiate airports with consistently low delays from those with frequent and longer disruptions, demonstrating that K-Means was effective for uncovering patterns in airport delay performance.
+</p>
+   <figure>
+  <img src="img/airport cluster assignments.jpeg"
+       alt="airport cluster assignments" width="600" loading="lazy">
+  <figcaption>airport cluster assignments</figcaption>
+</figure>  
+
+    <figure>
+  <img src="img/Airport Cluster Assignments.png"
+       alt="Airport Cluster Assignments" width="600" loading="lazy">
+  <figcaption>Airport Cluster Assignments</figcaption>
+</figure>  
+
+    <figure>
+  <img src="img/Top airports per cluster 2.jpeg"
+       alt="Top airports in Cluster 0 table" width="600" loading="lazy">
+  <figcaption>Top airports in Cluster 0 table</figcaption>
+</figure>  
+  
+  <figure>
+  <img src="img/Top airports per cluster3.jpeg"
+       alt="Top airports in Cluster 1 table" width="600" loading="lazy">
+  <figcaption>Top airports in Cluster 1 table</figcaption>
 </figure>    
 
     <!-- Research Question #: enter question here -->
