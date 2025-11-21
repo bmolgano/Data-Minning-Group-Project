@@ -16,25 +16,56 @@
   </nav>
 </header>
   <h1>Models Implemented</h1>
-  <!-- Research Question 1:  -->
-  <h2>Research Question 1:</h2>
-  <p>enter body here</p>
-
-
-<figure>
-  <img src="img/Screenshot_22-9-2025_185129_docs.google.com.jpeg"
-       alt="Flight delays visualization (screenshot)" width="600" loading="lazy">
-  <figcaption>Figure 1: Flight delays visualization.</figcaption>
-</figure>
-
+  <!-- Research Question 3: K-Means Clustering: Do certain airline companies have more flight delays?  -->
+  <h2>Research Question 3: K-Means Clustering: Do certain airline companies have more flight delays?</h2>
+  <p>K-Means was selected because it is an unsupervised learning algorithm that effectively groups airlines with similar delay characteristics using numerical features such as average delay time and percentage of delayed flights. The dataset contained continuous numeric variables making K-Means suitable for finding natural clusters that distinguish on-time versus delay-prone carriers. Its efficiency and interpretability make it ideal for exploratory pattern discovery within airline performance data. K-Means assumes that clusters are approximately spherical in feature space and that data points are numerically scaled with similar variance. To meet these assumptions, all features were standardized using StandardScaler. It also assumes Euclidean distance is meaningful, which holds since the features (delay percentages and times) are continuous and comparable after scaling. The primary hyperparameter, number of clusters (K), was tuned using the Elbow method (Inertia vs. K) and the Silhouette Score. Both methods indicated an optimal K = 2, balancing compactness and separation (Silhouette = 0.500, Davies-Bouldin = 0.687).
+</p>
 
   <figure>
-  <img src="img/Screenshot_22-9-2025_185158_docs.google.com.jpeg"
-       alt="Flight delays visualization (screenshot)" width="600" loading="lazy">
-  <figcaption>Figure 1: Flight delays visualization.</figcaption>
+  <img src="img/Elbow Method .Inertia vs K and silhoutte score vs K.png"
+       alt="Elbow Method and Silhoute Score" width="600" loading="lazy">
+  <figcaption>Figure 1: Elbow Method and Silhoute Score</figcaption>
+</figure>    
+  
+  <figure>
+  <img src="img/Airline Clusters by Delay Behavior.png"
+       alt="Airline Clusters by Delay Behavior" width="600" loading="lazy">
+  <figcaption>Airline Clusters by Delay Behavior</figcaption>
+</figure>  
+  
+  <p>A key challenge in clustering was that airlines operate at vastly different flight volumes, which risked skewing delay averages and allowing large carriers (such as United or Southwest) to dominate the cluster structure. To correct for this imbalance, we introduced a log-transformed flight count feature (log_flights) to normalize scale differences. A second challenge involved negative delay values, which represented early departures and distorted the true delay averages. To address this, we created a new adjusted feature, DelayMinutes_Pos, which clipped negative delay times to zero. These preprocessing steps produced more meaningful and comparable delay patterns across all airlines and improved clustering performance.</p>
+    
+  
+  <p>To prepare the dataset for K-Means clustering, preprocessing steps were applied to make the data compatible with the algorithm and enable fair airline comparisons. Flight-level records were first cleaned by converting delay fields to numeric values and clipping negative delays (early departures) to zero, followed by creating binary indicators for moderate (≥15 min) and severe (≥60 min) delays. Because the research question focuses on differences between airlines rather than individual flights, data was aggregated by carrier to compute total flights, delay rates, mean positive delay minutes, and the 95th percentile delay duration, while removing airlines with fewer than 50 observations. To prevent high-volume airlines from dominating cluster formation, flight count was log-transformed, and the final feature set—delay_rate_15, delay_rate_60, avg_delay, p95_delay, and log_flights—was standardized using StandardScaler so all variables contributed proportionally to the Euclidean distance calculations used by K-Means.
+</p>
+  
+<figure>
+  <img src="img/raw_dataset_preview.png"
+       alt="Orginal Data Preview" width="600" loading="lazy">
+  <figcaption>Orginal Data Preview</figcaption>
 </figure>
 
+<figure>
+  <img src="img/Feature snapshot BEFORE scaling.jpeg"
+       alt="BEFORE Scaling" width="600" loading="lazy">
+  <figcaption>BEFORE Scaling</figcaption>
+</figure>
 
+<figure>
+  <img src="img/Aggregated airline-level data.jpeg"
+       alt="Aggregated airline-level data" width="600" loading="lazy">
+  <figcaption>Aggregated airline-level data</figcaption>
+</figure>
+  
+  <figure>
+  <img src="img/Feature snapshot AFTER scaling.jpeg"
+       alt="Feature snapshot AFTER scaling" width="600" loading="lazy">
+  <figcaption>Feature snapshot AFTER scaling</figcaption>
+</figure>
+
+<p>The performance of the K-Means model was evaluated using the Silhouette Score and the Davies-Bouldin Index. With K = 2, the model achieved a Silhouette Score of 0.500, indicating good cohesion within clusters and clear separation between them. The Davies-Bouldin Index of 0.687 further supports strong cluster quality, since lower values imply greater separation and less overlap. Together, these metrics confirm that K-Means effectively identified two meaningful airline performance groups: consistently on-time carriers vs. delay-prone carriers.</p>
+  
+  
   <!-- Stakeholders -->
   <h2>Stakeholders (Who is Affected?)</h2>
   <p>enter body here</p>
