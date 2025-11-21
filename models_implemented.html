@@ -126,20 +126,36 @@
   <figcaption>Top airports in Cluster 1 table</figcaption>
 </figure>    
 
-    <!-- Research Question #: enter question here -->
-  <h2>Research Question #: enter question here</h2>
-  <p>Model Choice: enter body here</p>
-  <p>Model Assumption: enter body here</p>
-  <p>Data Preparation: enter body here</p>
-  <p>Challenges & Solutions: enter body here</p>
-  <p>Hyperparameter Tuning: enter body here</p>
-  <p>Performance & Evaluation:  enter body here</p>
- 
+    <!-- Research Question #9: Do flights to or from certain locations (east vs west coast, or down to airport precision) or at certain times (midnight vs midday) tend to be delayed more? -->
+  <h2>Research Question #9: Do flights to or from certain locations (east vs west coast, or down to airport precision) or at certain times (midnight vs midday) tend to be delayed more?</h2>
+  <p>Model Choice: Apriori was applied to uncover interpretable co-occurrence patterns between categorical flight attributes and delay outcomes. The dataset of 43,853 records was well suited for a transactional format after converting departure times into time-of-day categories and one-hot encoding carrier and airport identifiers. The resulting association rules highlight clear and actionable patterns, such as certain times of day or airport characteristics that frequently co-occur with delayed departures. These insights provide an explainable layer of understanding that complements predictive modeling by identifying when and where delays are most likely to occur.</p>
+  <p>Model Assumption: The Apriori model was applied to a one-hot encoded transaction matrix containing 43,853 rows and 223 binary indicator columns. Each item is treated as an independent categorical feature, and associations are evaluated using support, confidence, and lift. The dataset produced frequent co-occurring patterns that surpassed the minimum support threshold, making it suitable for discovering meaningful relationships related to flight delays.</p>
+  <p>Data Preparation: To prepare the dataset for Apriori association mining, flight-level records were first cleaned and transformed into a transaction format. Departure and arrival delay fields were converted from string values to numeric, and a binary Is_Delayed flag was created to identify departures delayed by 15 minutes or more. The scheduled departure time was parsed to extract the hour of day and then bucketed into four interpretable time windows, Morning, Afternoon, Evening, and Late Night, to standardize temporal categories across flights. Categorical fields such as Carrier Code and Destination Airport were cast to string to ensure consistent encoding. A subset of relevant features (carrier, airport, time-of-day, and delay outcome) was used to generate the transaction matrix via one-hot encoding, resulting in a wide binary dataset where each column represents the presence of a category for a given flight.</p>
+    <figure>
+  <img src="img/Original Data.jpeg"
+       alt="Raw dataset preview" width="600" loading="lazy">
+  <figcaption>Raw dataset preview</figcaption>
+</figure>   
+  
+  <p>Hyperparameter Tuning:Hyperparameter tuning for Apriori used a minimum support of 0.05 to retain patterns appearing in at least 5 percent of flights, which produced 23 frequent itemsets while reducing noise. Association rules were evaluated using lift with a minimum threshold of 1.0 to ensure relationships were stronger than chance, and results were filtered to retain only rules that predicted delays. The strongest rules showed that evening departures, certain carriers, and afternoon flights were more likely to result in delays, with lift values above 1 indicating a 14 to 34 percent higher likelihood of delay compared to the baseline rate.</p>
+    <figure>
+  <img src="img/Frequent itemsets.jpeg"
+       alt="Frequent itemsetse" width="600" loading="lazy">
+  <figcaption>Frequent itemsets</figcaption>
+</figure>   
+  
+  <p>Challenges & Solutions: Several preprocessing issues needed to be addressed to obtain meaningful Apriori rules. The one-hot encoded transaction matrix contained 223 columns, which increased computation time and diluted support, so a minimum support of 0.05 was used to retain only meaningful patterns. Because most flights are not delayed, many trivial rules tended to predict “not delayed,” so rules were filtered to keep only those with “Delayed” as the consequent and then ranked by lift. Mixed column types initially triggered warnings and slowed execution, so the matrix was cast to boolean format to speed up mining. Finally, variability in scheduled-time strings was handled by extracting the hour and binning flights into time-of-day categories to create consistent inputs for association discovery.</p>
+  <p>Performance & Evaluation: Apriori revealed clear and interpretable patterns showing that evening flights, and to a lesser extent afternoon flights, along with certain carrier contexts, are associated with a higher likelihood of delays. These results provide insight that can support scheduling decisions, improve passenger communication, and guide staffing allocation during higher risk time periods.</p>
+   <figure>
+  <img src="img/top_rules Rule, support, confidence, lift.jpeg"
+       alt="Consequents table with support, confidence, lift" width="600" loading="lazy">
+  <figcaption>Consequents table with support, confidence, lift</figcaption>
+</figure>   
 
   <figure>
-  <img src="enter img path here"
-       alt="enter image title here" width="600" loading="lazy">
-  <figcaption>enter image caption here</figcaption>
+  <img src="img/Top 10 Delay Association Rules.jpeg"
+       alt="Delay Association Rules" width="600" loading="lazy">
+  <figcaption>Delay Association Rules</figcaption>
 </figure>    
 
 
