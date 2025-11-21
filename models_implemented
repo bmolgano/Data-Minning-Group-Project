@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Models Implemented</title>
+</head>
+<body>
+  <header>
+  <h1>Data Mining Project Website</h1>
+  <nav>
+    <a href="introduction.html">Introduction</a>
+    <a href="team.html">Team</a>
+    <a href="proposal.html">Proposal Overview</a>
+    <a href="data_exploration.html">Data Exploration</a>
+    <a href="models_implemented.html">Models Implemented</a>
+  </nav>
+</header>
+  <h1>Models Implemented</h1>
+  <!-- Research Question 1:  -->
+  <h2>Research Question 1:</h2>
+  <p>enter body here</p>
+
+
+<figure>
+  <img src="img/Screenshot_22-9-2025_185129_docs.google.com.jpeg"
+       alt="Flight delays visualization (screenshot)" width="600" loading="lazy">
+  <figcaption>Figure 1: Flight delays visualization.</figcaption>
+</figure>
+
+
+  <figure>
+  <img src="img/Screenshot_22-9-2025_185158_docs.google.com.jpeg"
+       alt="Flight delays visualization (screenshot)" width="600" loading="lazy">
+  <figcaption>Figure 1: Flight delays visualization.</figcaption>
+</figure>
+
+
+  <!-- Stakeholders -->
+  <h2>Stakeholders (Who is Affected?)</h2>
+  <p>enter body here</p>
+
+
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
