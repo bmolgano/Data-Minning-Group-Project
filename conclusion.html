@@ -26,15 +26,53 @@
   <main>
     <h2>Conclusion</h2>
         <h2>Non-Technical Summary</h2>
-         <p>Add body Here</p>
+         <p>The analysis of U.S. flight delays shows that delays became noticeably worse after the COVID-19 pandemic but 
+           have slowly improved in recent years. The aviation system is stabilizing overall, but delays are still common 
+           at certain airports and certain airlines. Busy travel periods such as summer and major holidays also continue to 
+           contribute to delays. To better understand and predict delays, several machine learning approaches were tested 
+           and provided different insights. The trend model confirmed that delays increased sharply right after COVID and 
+           have gradually decreased over time. The decision tree model showed that using only basic pre-departure 
+           information, such as airline, airport, and time of day, makes it possible to identify flights that will 
+           depart on time in most cases. However it still remains very difficult to accurately identify the flights that 
+           will end up delayed. The random forest model performed much better when predicting late-aircraft delays, 
+           particularly when each departing flight was linked to the arrival of the same aircraft earlier in the day. 
+           This reflects the real-world pattern that a late arrival often causes the next flight to depart late as well. 
+           Clustering and association rule mining added further context by identifying groups of airlines and airports 
+           with similar delay behaviors and revealing that delays are more common during certain times of day, such as
+           evening hours.</p>
 
         <h2>Key Insights and Discoveries</h2>
-             <p>Add body Here</p>
+             <p>Across all models, flight delays are partially predictable and highly context dependent. At the system level,
+               linear regression showed a clear post-COVID spike in average monthly delays, followed by a gradual downward
+               trend, suggesting the aviation system is still recovering but slowly stabilizing. At the individual flight 
+               level, simple pre-departure information like carrier, airport, and scheduled time, were not enough to 
+               reliably predict which flights would be delayed. The Decision Tree model mostly learned to identify on-time 
+               flights and missed many true delays. However, when the problem was narrowed to late aircraft delays and 
+               incorporated paired arrival–departure data and engineered features like scheduled turnaround time, 
+               Random Forest models performed substantially better. Unsupervised methods added another layer of insight. 
+               K-Means clustering revealed distinct groups of airlines and airports, separating relatively on-time operators
+               from those with systematically higher delay rates, while Apriori rules confirmed that evening departures and 
+               certain carrier–airport combinations are more delay prone than the baseline.</p>
     
         <h2>Explaination of Real-world Impact of Results</h2>
-             <p>Add body Here</p>
+             <p>These findings can inform how airlines, airports, and even travelers think about delay risk. The post-COVID trend 
+               analysis highlights that delays are not just random but follow structural patterns over time. This can support
+               long-term planning around staffing, crew availability, and infrastructure. The late-aircraft models show that 
+               propagation delays or in other words when one late flight causes another, are more predictable than generic delays.
+               This suggests that airlines could use similar models to prioritize gate turns, add buffer time for at-risk 
+               rotations, or proactively rebook passengers when an inbound flight is severely late. Clustering and 
+               frequent-pattern mining provide practical guidance on where and when to expect trouble. The delay-prone airports,
+               carriers, and evening time windows could be targeted for extra staffing or improved ground operations. Even if 
+               perfect prediction is not always viable every delayed flight, these models highlight high-risk contexts where 
+               interventions and communication are likely to mitigate delays.</p>
 
         <h2>Discussion of Limitations, Improvements, and Future Work</h2>
-             <p>Add body Here</p>
+             <p>The analysis is constrained by several important limitations. This analysis worked with a restricted sample and did not 
+               have real-time operational data such as detailed weather conditions, crew scheduling, or air-traffic control constraints.
+               Additionally, the data is imbalanced with more on-time flights than delayed ones, hurting classification performance and 
+               simple models overpredicting the majority class. Finally, interpretable baseline models like Decision Trees, Random Forests,
+               K-Means, Apriori were mainly used and did not explore more complex architectures models. Future work could incorporate 
+               external weather APIs and operational data as well as implement advanced models. Future work could also design user-facing
+               visualizations or decision tools for airport personnel and travelers.</p>
 
 
