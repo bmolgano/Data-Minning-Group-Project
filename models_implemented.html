@@ -218,6 +218,42 @@
   </a>
 </p>
 
+
+
+  <h2>Research Question #2,6: :Can we predict flight delays? What general variables are most impactful in determining if a flight would be delayed?</h2>
+  <p>Model Choice:  Based on analysis described in the data preparation section we decided to focus on predicting late aircraft delay only based on a variety of factors. Multiple models were tested such as KNN, decision tree, logistic regression and Random Forest to predict if late aircraft delay occurred. We one hot encoded the categorical attributes and scaled numerical attributes to improve performance. Random Forest gave the best performance as seen in by the metrics and was chosen as the final model for this problem.</p>
+  <p>Model Assumption:  For random forest the main assumption was its ability to perform well on tasks of binary classification based on both categorical and numerical attributes which our data had.</p>
+  <p>Data Preparation: Predicting delay in general is a very difficult task without real time info. After trying multiple models we concluded that delay prediction may not be possible. However, public data is available for arrivals into each airport. We already had data for departures from the previous milestone. So combining these two datasets could help classify propagation delays which are classified as Late Aircraft Delays. We merged both datasets to properly analyze information.  First we find all flights under the same flight number for a given date. We then merge an arrival that occurred directly before departure for the same flight at the same airport to create a flight pair. Thus if a flight arrived late we can conclude that the departure on the same day could be affected by a Late Aircraft Delay.</p>
+
+   <p>Our approach for modeling was to use arriving flight info in order to determine if the departure flight had late late aircraft delay. When the arriving flight had no arrival delay the departure flight had no late aircraft delay 100 percent of the time. Thus for the model we only analyzed flight pairs where the arriving flight was delayed. This constituted about 32 percent of flights. However, while arrival delay was a strong predictor of departure delay only 30 percent of flights with arrival delay led to departure delay so our model still had work to do. Based on the data we wanted to answer two questions. Based on the occurrence of an arrival delay can we predict if a late aircraft delay will occur for the departing flight? Additionally given the exact length of the arriving flight delay can we predict how long the late aircraft delay will be?</p>
+
+  <p>For prediction of late aircraft delay we focused on models that help with binary classification. Most attributes were given directly from the dataset such as airline carrier, airport, time of arrival/departure, and date of arrival/departure.  To simplify the model we use arrival_hour and arrival_month to give us a total of 4 categorical attributes. Additionally two numerical attributes were created. Scheduled_elapsed_time gave us an idea of the flight length and we also created a new attribute scheduled_turnaround. Scheduled_turnaround is computed as the difference between scheduled departure time and scheduled arrival time and can be a strong predictor of flight delays in real life. 
+  </p>
+  <figure>
+  <img src="img/datasnapshot_lateaircraft.png"
+       alt="late aircraft data" width="600" loading="lazy">
+  <figcaption>Late aircraft dataset snapshots</figcaption>
+</figure>   
+<p>
+  <a href="https://github.com/bmolgano/Data-Minning-Group-Project/blob/main/img/latearcraft.csv" target="_blank">
+     Dataset:Late Aircraft
+</p> 
+
+  <p>Hyperparameter Tuning:Specific hyperparameters that improved performance were increasing n_estimators to 300 and min_samples_leaf which was increased to 5 to improve underfitting. Increasing past these values leads to overfitting and a decrease in model performance. </p>
+  <p>Challenges & Solutions: Note that we did not use the length of the arrival_delay as an attribute. Creating another metric called scheduled_turnaround_adjusted = scheduled_turnaround - arrival_delay could improve performance to about 82 percent. However, scheduled_turnaround_adjusted was an overpowering feature as it gave 82 percent accuracy on a single feature decision tree. Since this wasn’t insightful we decided to only use scheduled_turnaround_adjusted to predict late aircraft delay length. For classification we just used scheduled_turnaround. Despite the decrease in accuracy to 69 percent we have the additional benefit of predicting delay without having to wait for the full arrival delay. This can be seen as a large advantage in real life real time situations.</p>
+  <p>Performance & Evaluation:  Our performance isn’t exceptional at 69 percent accuracy, but given the difficulty of the task and the use of arrival delay flights only it is reasonable. Based on the info above we know we can predict the majority of flights with 100 percent accuracy as they have no arrival delay. Finally, in order to evaluate the reasonability of features in random forest we looked at feature importance as seen below. It is good that multiple features such as Arrival hour, elapsed time during flight, and carrier info give important info in addition to turnaround time.</p>
+
+  <figure>
+  <img src="img/lateaircraft_classresults.png"
+       alt="Late aircraft models" width="600" loading="lazy">
+  <figcaption>Results for different late aircraft models</figcaption>
+</figure>   
+
+<p>
+  <a href="https://github.com/bmolgano/Data-Minning-Group-Project/blob/main/img/latearcraft.ipynb" target="_blank">
+     View Notebook: Late Aircraft Classification and Regression
+</p> 
+
   
     <!-- Research Question #: enter question here -->
   <h2>Research Question #: enter question here</h2>
