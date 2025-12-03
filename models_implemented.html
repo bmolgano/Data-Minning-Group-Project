@@ -256,6 +256,22 @@
     </a>
 </p> 
 
+  <!-- Research Question #2,8:Can we predict flight delays(length)? How reliable can delay predictions be? Is there too much variability in records to be able to make good predictions?-->
+
+  <h2>Research Question #2,8:Can we predict flight delays(length)? How reliable can delay predictions be? Is there too much variability in records to be able to make good predictions?
+</h2>
+  <p>Model Choice: In order to predict the length of delay we decided to use regression since it makes the best sense to predict numerical attributes.The plots show the data as an exponential shape so we log transformed the data before using Linear Regression. Despite the transformation the results using scheduled_turnaround_adjusted to predict delay length were poor with R^2 values around 0.1. Exploring other regression models we found that Random Forest Regressor worked very well with the data as seen in results below. While we have not directly studied this model in class it is based on similar ideas as Random Forest classifier which helped motivate its usage to classification results. The basic idea of the regressor is to use a forest of decision trees where each leaf can correspond to  a different section/cluster of data. Then each section/cluster can have different regression predictions based on the mean of the data in the cluster. This works well on our data as seen in the plots because there are clusters of very high delays and low delays. </p>
+  <p>Model Assumption:  Random Forest regression assumes data is correlated in clusters that can be predicted by attribute branches in a decision tree. As seen from our plot it is clear we have correlation but there are clusters splitting low and high delay.</p>
+  <p>Data Preparation: Scheduled_turnaround did not perform well for regression so we used the much stronger attribute scheduled_turnaround_adjusted based on the length of the arrival delay. Dataset and preparation were identical to the late aircraft delay classification model seen earlier. The data  and code link is the same as the classifier.</p>
+  <p>Hyperparameter Tuning: Hyperparameters used were identical to the classifier as this made the most sense and performed the best. </p>
+  <p>Challenges & Solutions:  Other than choosing the correct regression  no other challenges were encountered.</p>
+  <p>Performance & Evaluation:   Results for the random forest regressor were far superior to other models even with just using scheduled_turnaround_adjusted. We can see this with the regression metrics and the plot.</p>
+
+  <figure>
+  <img src="img/lateaircraft_regressionresults.png"
+       alt="Late aircraft regression models" width="600" loading="lazy">
+  <figcaption>Random Forest Regressor Results</figcaption>
+</figure>  
   
     <!-- Research Question #: enter question here -->
   <h2>Research Question #: enter question here</h2>
